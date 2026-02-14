@@ -15,7 +15,7 @@ const MapView = () => {
       const container = document.getElementById('citizen-map');
       if (!container || (container as any)._leaflet_id) return;
 
-      const map = L.map('citizen-map').setView([33.6995, 73.0500], 12);
+      const map = L.map('citizen-map').setView([25.5941, 85.1376], 13);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors',
       }).addTo(map);

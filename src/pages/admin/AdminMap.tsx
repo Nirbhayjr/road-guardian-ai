@@ -21,7 +21,7 @@ const AdminMap = () => {
         container.innerHTML = '';
       }
 
-      const map = L.map('admin-map').setView([33.6995, 73.0500], 12);
+      const map = L.map('admin-map').setView([25.5941, 85.1376], 13);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap',
       }).addTo(map);
