@@ -16,7 +16,7 @@ const DEMO_USERS: { email: string; password: string; user: User }[] = [
   {
     email: 'citizen@smartroad.ai',
     password: 'demo123',
-    user: { id: 'user-1', name: 'Ahmed Khan', email: 'citizen@smartroad.ai', role: 'citizen' },
+    user: { id: 'user-1', name: 'Rajesh Kumar', email: 'citizen@smartroad.ai', role: 'citizen' },
   },
   {
     email: 'admin@smartroad.ai',

@@ -68,14 +68,14 @@ const ReportPothole = () => {
           setGettingLocation(false);
         },
         () => {
-          setCoords({ lat: 33.6844, lng: 73.0479 });
-          setAddress('Blue Area, Islamabad (default)');
+          setCoords({ lat: 25.5941, lng: 85.1376 });
+          setAddress('Gandhi Maidan, Patna (default)');
           setGettingLocation(false);
         }
       );
     } else {
-      setCoords({ lat: 33.6844, lng: 73.0479 });
-      setAddress('Blue Area, Islamabad (default)');
+      setCoords({ lat: 25.5941, lng: 85.1376 });
+      setAddress('Gandhi Maidan, Patna (default)');
       setGettingLocation(false);
     }
   };
@@ -202,7 +202,7 @@ const ReportPothole = () => {
               </Button>
               <div className="space-y-2">
                 <Label>Address / Location</Label>
-                <Input value={address} onChange={e => { setAddress(e.target.value); if (!coords) setCoords({ lat: 33.6844, lng: 73.0479 }); }} placeholder="Enter location manually" required />
+                <Input value={address} onChange={e => { setAddress(e.target.value); if (!coords) setCoords({ lat: 25.5941, lng: 85.1376 }); }} placeholder="Enter location manually" required />
               </div>
             </CardContent>
           </Card>
